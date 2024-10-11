@@ -26,7 +26,8 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Dhizuku">
+        android:theme="@style/Theme.Dhizuku"
+        android:testOnly="true">
 
         <activity
             android:name=".ui.activity.SettingsActivity"
